@@ -1,0 +1,28 @@
+*{margin:0px; padding:0px;}
+li{list-style:none;}
+a{text-decoration:none;}
+
+#wrap{width:100%;height:100vh;background:url(../img/cloud.jpg)no-repeat;background-size:cover;position:relative;}
+h1{position:absolute;top:10%;left:5%;text-align:center;font-size:13px;color:rgba(255, 255, 255, 0.575);}
+h1 strong{margin-left:12px;}
+h1 img{width:60px;}
+.text{font-family: 'Kanit', sans-serif;position:absolute;top:20%;left:5%;font-size:20px;}
+.text span{color:#66bbf3;}
+
+#container{width:50%;height:100vh;display:flex;justify-content: flex-end;position:absolute; top:0%;right:0%;}
+.con{width:25%;border-left:1px solid #ffffff8e;position:relative;cursor:pointer;overflow:hidden;}
+.con h2{cursor:pointer;margin-left:20px;position:absolute;top:10%;color:white;}
+.con h3{margin-top:30px;position:Absolute;top:40%;right:5%;color:#fefcf7a4;margin-right:-100px;opacity:0}
+.homepage{position:Absolute;top:75%;left:50%;transform:translateX(-50%);color:white;}
+.ga{width:100%;position:Absolute;top:20%;}
+.de{width:100%;position:Absolute;top:40%;}
+.about{width:300px;position:Absolute;top:50%; right:5%;font-size:13px;color:#fefcf7a4}
+.design1{width:100%;display:flex;}
+.design1 img{width:50%;}
+.myung{text-align:right;position:absolute;top:80%;right:4%;color:#fefcf7a4;border-bottom:1px solid #fefcf7a4;font-size:11px;padding-bottom:5px;}
+.contact{width:210px;position:absolute;top:25%;left:50%;transform:translateX(-50%);padding:20px;color:white;opacity:0;font-size:12px;border:1px solid white;}
+video{height:100%;opacity:1;}
+footer{width:100%; height:50px;background:rgba(0, 0, 0, 0.313);color:white;display:flex;justify-content: space-between;line-height:50px;position:absolute;bottom:0%;}
+footer ul{width:300px;display:flex;justify-content: space-between;margin-left:50px;}
+footer p{margin-right:50px;}
+footer a{color:white;}
