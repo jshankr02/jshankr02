@@ -4,80 +4,161 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style1.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <script src="js/jquery-3.6.4.min.js"></script>
-    <script src="js/custom8.js"></script>
-    <link href="css/style6.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
-    <title>슬라이드</title>
+    <title>TOMMY STUDIO</title>
 </head>
 <body>
-    <div id="wrap">
-        <h1>
-            <strong>JS</strong><br>
-            <img src="img/logo.png">
-        </h1>
-        <div class="text">
-            Web Design & <span>Web Publisher</span>
-        </div>
-        <div id="container">
-            <div class="con">
-                <h2>About me</h2>
-                <video loop muted>
-                    <source src="img/cafe-22728.mp4">
-                </video>
-                <h3>About me</h3>
-                <p class="about">안녕하세요.<br>
-                   저는 그림 그리기, 음악, 사진촬영, 디자인 등등 여러 분야에 대한 배움과 관심이 많습니다.<br>
-                   좋아하는 일을 즐기면서 잘하는것, 제가 꿈꾸는 저의 모습입니다.
-                </p>
-                <div class="move"></div>
+    
+    <div class="head">
+        <div class="wrap">
+            <h1><a href="index.html"><img src="img/logowhite.png"></a></h1>
+            <div class="nav">
+                <a href="#"><img src="img/nav.png"></a>
             </div>
-            <div class="con">
-                <h2>Homepage</h2>
-                <img class="ga" src="img/mok1.png">
-                <img class="de" src="img/mok2.png">
-                <video loop muted>
-                    <source src="img/ocean-65560.mp4">
-                </video>
-                <h3>Homepage</h3>
-                <p class="homepage">TYPE   Responsive Web<br>
-                   PAGE   Main<br>
-                   TOOL   Photoshop, HTML, CSS, JS</p>
-                
-            </div>
-            <div class="con">
-                <h2>Design</h2>
-                <div class="design1">
-                    <img class="ga" src="img/green1.png">
-                    <img class="de" src="img/green2.png">
-                </div>
-                <video loop muted>
-                    <source src="img/waterfall-158229.mp4">
-                </video>
-                <h3>Design</h3>
-                <p class="myung">명함 디자인</p>
-            </div>
-            <div class="con">
-                <h2>Contact</h2>
-                <video loop muted>
-                    <source src="img/clouds-64759.mp4">
-                </video>
-                <h3>Contact</h3>
-                <p class="contact">이름 : 한지선<br>
-                   연락처 : 010-3952-0711<br>
-                   이메일 : smile_den@naver.com</p>
-            </div>
-        </div>
-        
-        <footer>
-            <ul>
-                <li><a href="">sitemap</a></li>
-                <li><a href="">contact</a></li>
-                <li><a href="">community</a></li>
+            <ul class="menu">
+                <li><a href="story.html">STORY</a></li>
+                <li><a href="moment.html">MOMENT</a></li>
+                <li><a href="business.html">BUSINESS</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
             </ul>
-            <p>copyright cartier All right reserved</p>
-        </footer>
+        </div>
+        <ul class="nav_m">
+            <li><a href="#">STORY</a></li>
+            <li><a href="#">ARCHIVE</a></li>
+            <li><a href="#">BUSINESS</a></li>
+            <li><a href="#">STORE</a></li>
+            <li><a href="#">GUIDE</a></li>
+        </ul>
+        <h2>
+            LONG LIFE<br>
+            PRODUCTS
+        </h2>
+        <p class="sajin">
+            사진을<br>
+            오래 간직할 수 있는
+        </p>
+        <p class="acid">
+            ACID FREE 재료
+        </p>
+        <div class="scroll">
+            <div class="mouse">
+                <div class="arrow"><span class="material-symbols-outlined">
+                    expand_more
+                    </span></div>
+            </div>
+            <div class="back"></div>
+            <div class="front"></div>
+        </div>
     </div>
-   
+
+    <script>
+        $(".nav").on("click",function(){
+            $(".nav_m").toggle(1000);
+        })
+    </script>
+    
+    
+    <div class="con1">
+        <h5>Recent Project</h5>
+        <div class="border1"></div>
+        <p>스튜디오 토미의 최근 프로젝트</p>
+        <div class="recent">
+            <div class="left1">
+                <img src="img/re1_1.jpeg">
+                <img class="cup" src="img/re2_2.jpeg">
+            </div>
+            <div class="right1">
+                <img src="img/re3.jpg">
+                <img src="img/re4.jpg">
+                <img src="img/re5.jpeg"> 
+            </div>
+        </div>
+    </div>   
+    
+    <div class="con2">
+        <h2>TOMMY PHOTO STUDIO</h2>
+        <div class="border2"></div>
+        <p>A true photograph need not be explained, nor can it be contained in words.<br>
+        <span>진정한 사진은 설명 할 필요도 없고 말로 담을 수도 없습니다.</span></p>
+    </div>
+
+    <div class="con3">
+        <p>STORE SEORAP</p>
+        <ul class="store">
+            <li>
+                <div class="scale">
+                    <img src="img/store1.jpg">
+                </div>
+                <p>모먼트 촬영권 선물하기</p>
+            </li>
+            <li class="store2">
+                <div class="scale"><img src="img/store2_2.jpg"></div>
+                <p>[Ocean Breeze] Stone-mini</p>
+            </li>
+            <li>
+                <div class="scale"><img src="img/store3.jpg"></div>
+                <p>Layered Frame - cream</p>
+            </li>
+            <li>
+                <div class="scale"><img src="img/store4.jpg"></div>
+                <p>ARCH MIRROR</p>
+            </li>
+            <li>
+                <div class="scale"><img src="img/store5.jpg"></div>
+                <p>DRESS PERFUME / Secret Forest (50ml) Ver2.</p>
+            </li>
+            <li>
+                <div class="scale"><img src="img/store6.jpg"></div>
+                <p>시그니처 관액자 A3 / A2</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="con4">
+        <h2>OUR PHOTO SERVICE</h2>
+        <ul class="album">
+            <li><img src="img/album1.jpg" class="w3-opacity w3-hover-opacity-off"></li>
+            <li><img src="img/album2.jpg" class="w3-opacity w3-hover-opacity-off"></li>
+            <li>
+                <img src="img/album3.jpg" class="w3-opacity w3-hover-opacity-off">
+                <p class="inside">Tommy PROFILE</p>
+            </li>
+            <li><img src="img/album4.jpg" class="w3-opacity w3-hover-opacity-off"></li>
+            <li><img src="img/album5.jpg" class="w3-opacity w3-hover-opacity-off"></li>
+            <li><img src="img/album6.jpg" class="w3-opacity w3-hover-opacity-off"></li>
+            <li><img src="img/album7.jpg" class="w3-opacity w3-hover-opacity-off"></li>
+            <li><img src="img/album8.jpg" class="w3-opacity w3-hover-opacity-off"></li>
+            <li><img src="img/album9.jpg" class="w3-opacity w3-hover-opacity-off"></li>
+        </ul>
+    </div>
+
+    <div class="location">
+        <h2>LOCATION</h2>
+        <div class="wrap3">
+            <div class="map">
+                <img class="map1" src="img/map.png">
+            </div>
+            <p>
+            경기도 수원시 팔달 수 인계동 1040-9<br>
+            작업실 사무실 : 302호 <br>
+            스튜디오 : 202호 <br>
+            전화 : 031-238-5133<br><br>
+            인계동 사진관, 인계동 증명사진,<br>
+            수원 사진관
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Tommy Photo Studio</p>
+        <p>주소 : 경기도 수원시 팔달구 인계동 1040-9 / 작업실 사무실 : 302호 / 스튜디오 : 202호</p>
+        <p>전화번호 : 031-238-5133</p>
+    </footer>
+    
 </body>
 </html>
